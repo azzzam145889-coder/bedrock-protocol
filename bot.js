@@ -3,7 +3,7 @@ const bedrock = require('bedrock-protocol');
 const client = bedrock.createClient({
   host: 'emerald.magmanode.com',  // ضع هنا IP السيرفر
   port: 33760,             // ضع هنا Port السيرفر (عادة 19132)
-  username: 'berock_sectem',       // اسم البوت الذي تريد استخدامه
+  username: 'berock_sectem1',       // اسم البوت الذي تريد استخدامه
   offline: true            // إذا السيرفر بدون Xbox Live ضع true
 });
 
@@ -36,4 +36,5 @@ client.on('disconnect', (reason) => {
 client.on('error', (err) => {
   console.log('fucking❌:', err);
 });
+
 
